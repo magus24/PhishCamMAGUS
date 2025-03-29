@@ -25,7 +25,7 @@ cd PhishCamMAGUS
 ### 3. Установите зависимости
 
 ```sh
-pip install requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ### 4. Установите `cloudflared`
